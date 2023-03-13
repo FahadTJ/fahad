@@ -1,0 +1,15 @@
+CREATE TABLE employee(
+i_d INT,
+e_name VARCHAR(100),
+designation VARCHAR(100),	
+age INT,
+salary INT
+	);
+	INSERT  INTO employee(i_d,e_name,designation,age,salary)
+	VALUES(1,'jerin','web designing',20,30000),(2,'fahad','doctor',34,19000),
+	(3,'joyal','web development',33,1),(7,'rithul','web designing',23,80000),(6,'manu','doctor',36,18000);
+	SELECT *FROM employee
+	SELECT *FROM employee
+	WHERE e_name LIKE 'j%';
+	DROP TABLE employee 
+	DELETE FROM student WHERE employee_name='jerin';

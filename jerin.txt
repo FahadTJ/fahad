@@ -1,0 +1,10 @@
+CREATE TABLE student(
+stu_id INT,
+stu_name VARCHAR(100),
+dept_id INT
+	);
+	INSERT INTO student(stu_id,stu_name,dept_id)VALUES(10,'jerin',5),(12,'fahad',7),(14,'joyal',23);
+	SELECT *FROM STUDENT;
+	DROP TABLE student 
+	DELETE FROM student WHERE stu_name='jerin';
+	
